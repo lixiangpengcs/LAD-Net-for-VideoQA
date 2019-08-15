@@ -265,11 +265,6 @@ class VQAFeatureDataset(Dataset):
 
         feature = self.features[str(index)][:].astype('float32')
         feature = utils.pad_video(feature, (self.max_length, self.v_dim)).astype('float32')
-        # shuffle index
-        import random
-        idxs = list(range(0,36))
-        random.shuffle(idxs)
-        feature = feature[idxs]
         return torch.from_numpy(feature)
 
     def tokenize(self, max_length=35):
