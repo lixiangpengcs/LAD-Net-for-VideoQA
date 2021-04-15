@@ -24,5 +24,3 @@ Pytorch == 0.4.1.post2
   year={2019}
 }
 ```
-## Citation
-```
