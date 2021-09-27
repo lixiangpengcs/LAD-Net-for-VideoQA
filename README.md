@@ -23,4 +23,14 @@ Pytorch == 0.4.1.post2
   pages={1166--1174},
   year={2019}
 }
+
+@article{gao2021generalized,
+  title={Generalized pyramid co-attention with learnable aggregation net for video question answering},
+  author={Gao, Lianli and Chen, Tangming and Li, Xiangpeng and Zeng, Pengpeng and Zhao, Lei and Li, Yuan-Fang},
+  journal={Pattern Recognition},
+  volume={120},
+  pages={108145},
+  year={2021},
+  publisher={Elsevier}
+}
 ```
